@@ -8,9 +8,10 @@ namespace ConsoleApp2
 {
     internal class Program
     {
+        Private string name, job,age;
+        
         static void Main(string[] args)
         {
-            string name, job,age;
             Console.WriteLine("как вас зовут?");
             name = Console.ReadLine();
             Console.WriteLine("кем вы работаете?");
@@ -21,7 +22,7 @@ namespace ConsoleApp2
             Console.WriteLine("ваша работа:" + job);
             Console.WriteLine("ваш возраст:" +  age);
             Console.ReadKey();
-
         }
+        
     }
 }
